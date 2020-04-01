@@ -1,5 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
+'using Terraria.ModLoader.ModContent;'
+
 
 namespace CallOfDuty.Items.Weapons
 {
@@ -26,7 +28,7 @@ namespace CallOfDuty.Items.Weapons
 			item.UseSound = SoundID.Item12;
 			item.autoReuse = true;
 			item.mana = 8;
-			item.shoot = mod.ProjectileType("RaygunP");
+			item.Shoot = ModContent.ProjectileType<Projectiles.RaygunP>();
 			item.shootSpeed = 16f;
 			item.noMelee = true;
 			
