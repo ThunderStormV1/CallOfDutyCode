@@ -1,0 +1,6 @@
+CallOfDuty is my first modding experience.
+The mod currently adds 1 item.
+
+*Ray gun
+
+Special thanks to reddit usser u/Mistakingcone99 for allowing me to use his awesome Ray gun sprite!
