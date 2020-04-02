@@ -1,6 +1,6 @@
 using Terraria.ID;
 using Terraria.ModLoader;
-'using Terraria.ModLoader.ModContent;'
+using static Terraria.ModLoader.ModContent;
 
 
 namespace CallOfDuty.Items.Weapons
@@ -13,6 +13,7 @@ namespace CallOfDuty.Items.Weapons
 			Tooltip.SetDefault("'Works well with PhDFlopper'");
 		}
 
+		public string Texture = "Projectiles/RaygunP";
 		public override void SetDefaults() 
 		{
 			item.damage = 88;
@@ -28,7 +29,7 @@ namespace CallOfDuty.Items.Weapons
 			item.UseSound = SoundID.Item12;
 			item.autoReuse = true;
 			item.mana = 8;
-			item.Shoot = ModContent.ProjectileType<Projectiles.RaygunP>();
+			item.shoot = ProjectileType<Projectiles.RaygunP>();
 			item.shootSpeed = 16f;
 			item.noMelee = true;
 			

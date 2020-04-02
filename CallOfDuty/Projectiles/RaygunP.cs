@@ -5,6 +5,7 @@ namespace CallOfDuty.Projectiles
 {
     public class RaygunP : ModProjectile
     {
+        public string Texture = "CallOfDuty/Projectiles/RaygunP";
         public override void SetDefaults()
         {
             projectile.width = 8;
